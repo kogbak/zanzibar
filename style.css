@@ -249,7 +249,7 @@ td i {
 }
 
 #photos-ligne1-droite {
-    background-image: url(/galerie/plage-zanzibar.jpg);
+    background-image: url(./galerie/plage-zanzibar.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -263,7 +263,7 @@ td i {
 /* photos ligne 2 */
 
 #photos-ligne2-gauche {
-    background-image: url(/galerie/epices-zanzibar.jpg);
+    background-image: url(./galerie/epices-zanzibar.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -287,7 +287,7 @@ td i {
 }
 
 #photos-ligne2-droite {
-    background-image: url(/galerie/safari-blue.jpg);
+    background-image: url(./galerie/safari-blue.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
