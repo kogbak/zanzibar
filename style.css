@@ -1,0 +1,685 @@
+html {
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+header {
+    background-image: linear-gradient( rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.3)), url(header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    z-index: +1;
+}
+
+.logo {
+    font-family: "warnesregular";
+    color: white;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+
+.image-header-texte {
+    
+    top: 200px;
+    left: 300px;
+    position: relative;
+    color: white;
+}
+
+.titre {
+    
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.titre span {
+    font-weight: bold;
+}
+
+.bouton {
+    display: flex;
+    gap: 15px;
+}
+
+.bouton-notreile {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    color: #04A8D1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.bouton-notreile:hover {
+    background-color: #04A8D1;
+    border: 2px solid #04A8D1;
+    color: white;
+}
+
+.bloc-notreIle h1 {
+    text-align: center;
+}
+
+.bouton-contacteznous {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.bouton-contacteznous:hover {
+    background-color: #04A8D1;
+    border: 2px solid #04A8D1;
+}
+
+.bloc-quiSommeNous {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloc-quiSommeNous table {
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+.bloc-quiSommeNous i {
+    color: red;
+    transition: 0.6s;
+}
+
+.bloc-quiSommeNous i:hover {
+    transform: translateX(10px);
+    color: #494949;
+}
+
+td i {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.image-tea {}
+
+.titre-quisommenous {
+    font-weight: lighter;
+    text-align: center;
+    color: #7F7F7F;
+}
+
+.trait {
+    border: 1px solid #04A8D1;
+    background-color: #04A8D1;
+    width: 100px;
+    margin: auto;
+}
+
+.trait-quiSommeNous {
+
+    border: 1px solid #04A8D1;
+    background-color: #04A8D1;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.titre-notreile {
+    color: #7F7F7F;
+    text-align: center;
+    background-color: #0ce0f5;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.bloc-notreIle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #0ce0f5;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.premierbloc {
+    
+    width: 325px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.deuxiemebloc {
+    
+    width: 325px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.troiziemebloc {
+    
+    width: 325px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.petiteimage {
+    width: 60%;
+}
+
+.textbloc {
+    font-size: 14px;
+    width: 70%;
+}
+
+.textbloc h4 {
+    text-align: center;
+}
+
+/* MON BLOC PHOTOS !!! */
+
+#photos {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.photos-lignes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+    margin-left: 110px;
+    padding-top: 25px;
+    gap: 25px;
+    background-position: center;
+}
+
+/* photo ligne 1 */
+
+#photos-ligne1-gauche {
+    width: 34%;
+    height: 300px;
+    background-image: url(/galerie/femmes-zanzibar.jpg);
+    background-position: center;
+    background-size: center;
+    border-radius: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+#photos-ligne1-droite {
+    background-image: url(/galerie/plage-zanzibar.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 66%;
+    height: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+/* photos ligne 2 */
+
+#photos-ligne2-gauche {
+    background-image: url(/galerie/epices-zanzibar.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 300px;
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+#photos-ligne2-milieu {
+    background-image: url(/galerie/village-pecheur-zanzibar.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 300px;
+    width: 28%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+#photos-ligne2-droite {
+    background-image: url(/galerie/safari-blue.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 300px;
+    width: 32%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px gray;
+}
+
+.galeries-titre {
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+#photos h1 {
+    text-align: center;
+}
+
+/* MON BLOC IL ONT ADORE !!! */
+
+#titre-il-ont-adore {
+    color: white;
+}
+
+#bloc-ilOnAdore {
+    background-image: linear-gradient( rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.3)), url(the-paysage.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.les-avis {
+    color: white;
+    text-align: center;
+}
+
+.temoignage {
+    display: flex;
+    max-width: 1100px;
+    padding: 40px;
+}
+
+.emilie {
+    padding: 40px;
+}
+
+.les-avis img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.les-avis i {
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+section .les-avis .trait {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.titre-nos-sejour {
+    text-align: center;
+    color: #7F7F7F;
+    margin-top: 50px;
+}
+
+#sejour {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+#sejour .bloc-1 {
+    border: 2px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 310px;
+}
+
+#sejour .bloc-2 {
+    border: 2px solid #E2E2E2;
+    border-radius: 10px;
+    background-color: #0ce0f5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 310px;
+}
+
+#sejour .bloc-2 h2 {
+    color: black;
+}
+
+#sejour h1 {
+    font-weight: lighter;
+}
+
+#sejour i {
+    padding: 5px;
+}
+
+#sejour .bloc-3 {
+    border: 2px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 310px;
+}
+
+#sejour button {
+    background-color: #05a8d1;
+    border: 1px solid #05a8d1;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+#sejour button:hover {
+    background-color: #0ce0f5;
+    border: 1px solid #0ce0f5;
+}
+
+#contactez-nous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact {
+    display: flex;
+}
+
+iframe {
+    margin-left: 40px;
+    height: 300px;
+}
+
+.titre-contactez-nous {
+    text-align: center;
+    color: #7F7F7F;
+}
+
+div #msg {
+    height: 50px;
+    width: 600px;
+}
+
+form button {
+    width: 150px;
+    height: 40px;
+    background-color: #04a7d0;
+    color: white;
+    border: 2px solid #04a7d0;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.informations {
+    display: flex;
+    gap: 15px;
+}
+
+.informations i {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1200px) {
+
+    iframe{
+
+        margin-top: 50px;
+
+    }
+
+    .bloc-quiSommeNous{
+
+        margin-right: 100px;
+
+    }
+
+    nav{
+
+            position: fixed;
+            top: 0px;
+            left: 0;
+            right: 0px;
+            
+            
+    }
+
+    .image-header-texte {
+    
+        top: 200px;
+        left: 300px;
+        
+        color: white;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+
+    .temoignage{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+    }
+
+    
+    
+    
+
+    #bloc-ilOnAdore{
+
+        height: 1300px;
+
+    }
+
+   
+
+@media screen and (max-width:768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav {
+        height: 300px;
+        
+        
+    }
+    header {
+        height: 700px;
+    }
+    .image-header-texte {
+        top: 30%;
+        left: 30px;
+        position: absolute;
+    }
+    .bloc-quiSommeNous table {
+        position: absolute;
+        margin: 30px
+    }
+    .image-tea {
+        position: relative;
+        opacity: 0.3;
+    }
+    .titre-quisommenous {
+        color: transparent;
+    }
+    .trait-quiSommeNous {
+        border: 0px;
+        
+    }
+
+    .photos-lignes{
+        flex-wrap: wrap;
+    }
+
+    .galeries-titre {
+        background-color: #0ce0f5;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+    #contactez-nous{
+
+        text-align: center;
+    }
+
+    iframe{
+
+        margin-top: 50px;
+
+    }
+
+    .informations{
+
+        justify-content: center;
+    }
+
+    form{
+
+        justify-content: center;
+    }
+
+    
+    
+
+    .premierbloc{
+
+
+        width: 100%;
+        margin: 50px;
+        
+    }
+
+    .deuxiemebloc{
+
+        width: 100%;
+        margin: 50px;
+
+    }
+    
+    .troiziemebloc{
+
+        width: 100%;
+        margin: 50px;
+        
+
+
+    }
+
+    #photos-ligne1-gauche {
+        width: 100%;
+        
+    }
+    
+    #photos-ligne1-droite {
+        width: 100%;
+    }
+    
+    /* photos ligne 2 */
+    
+    #photos-ligne2-gauche {
+        width: 100%;
+    }
+    
+    #photos-ligne2-milieu {
+        width: 100%;
+    }
+    
+    #photos-ligne2-droite {
+        width: 100%;
+    }
+    .photos-lignes {
+        
+        margin-right: 50px;
+        margin-left: 50px;
+        
+    }
+
+    .image-header-texte {
+    
+        top: 300px;
+        left: 100px;
+        position: relative;
+        color: white;
+    }
+
+    
+
+}
